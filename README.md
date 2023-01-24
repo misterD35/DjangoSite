@@ -1,2 +1,2 @@
 # DjangoSite
-hello
+hello user
