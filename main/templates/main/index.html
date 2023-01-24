@@ -1,0 +1,28 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1>{{ title }}</h1>
+    {% filter upper %}
+    <p>Текст о природе Сибири<p>
+    {% endfilter %}
+    <button class="btn btn-warning">{% filter upper %}На страницу о нас{% endfilter %}</button>
+    {% include 'main/test.html' %}
+
+    {% for el in values %}
+        {% if el == 'Количество' %}
+            <p>{{ el|upper }}</p>
+        {% endif %}
+        {% if el == 'ВИДЫ' %}
+            {% filter lower %}
+                <p>{{ el }}</p>
+            {% endfilter %}
+        {% endif %}
+    {% endfor %}
+
+    {{ obj.tree }} {{ obj.class }} {{ obj.life }}
+</div>
+
+{% endblock %}
