@@ -1,5 +1,5 @@
 # DjangoSite
-hello user1
+hello user
 > comment
 ```bash
 cat Dockerfile
