@@ -1,5 +1,5 @@
 # Very Simple Site on Django
-[![Generic badge](https://img.shields.io/badge/Python-3.10-green.svg)]([https://shields.io/](https://www.python.org/))
+[![Generic badge](https://img.shields.io/badge/Python-3.10-green.svg)](https://www.python.org/)
 
 
 Hello!:hand:
