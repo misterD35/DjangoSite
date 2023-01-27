@@ -1,5 +1,6 @@
 # Very Simple Site on Django
-[![Generic badge](https://img.shields.io/badge/Python-3.10-green.svg)](https://www.python.org/)
+[![Generic badge](https://img.shields.io/badge/Python-3.10-green.svg)](https://www.python.org/)  [![Docker](https://badgen.net/badge/icon/docker?icon=docker&label)](https://https://docker.com/)
+
 
 
 Hello!:hand:
@@ -9,7 +10,7 @@ ___
 
 
 ## Description
-Simple site on *Django* contain some related sections with active links, ___danger___ and ___warning___ buttons , images :evergreen_tree:, data base with articles with ability to add new one. This functions client can use. But if you add to main ip adress and go to `'127.0.0.1:8000/admin'`, you can see and redact added acticles.
+Simple site on *Django* contain some related sections with active ___links___, danger and warning ___buttons___ , ___images___ :evergreen_tree:, data base with articles with ability to add new one. This functions client can use. But if you add to main ip adress and go to `'127.0.0.1:8000/admin'`, you can see and redact added acticles.
 
 *It has the following structure:*
 1. Main
